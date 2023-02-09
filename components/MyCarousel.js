@@ -9,11 +9,12 @@ function MyCarousel () {
     { width: 1, itemsToShow: 1 }
   ];
 
-  
-  
   return (
+    <div className={styles.carou}>
     <Carousel breakPoints={breakPoints}   autoPlay >
-       <Hero/>
+      <div>
+        <Hero/>
+      </div>
       <div className={styles.image}>
           <img src="/assets/IMG0.jpg" alt="IMG0"  />
       </div>
@@ -26,7 +27,8 @@ function MyCarousel () {
       <div className={styles.image} >
           <img src="/assets/IMG4.jpg" alt="IMG4"  />
       </div>
-    </Carousel>
+    </Carousel> 
+    </div>
   )
 
 }

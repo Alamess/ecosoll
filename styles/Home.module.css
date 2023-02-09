@@ -1,3 +1,6 @@
+.trans {
+  background-color:rgba(192, 189, 189, 0.393);
+}
 .container {
   padding: 0 2rem;
 }
@@ -137,13 +140,14 @@
   margin-left: 500px;
   font-style: solid ;
 }
-.image{
-  width :45% ;
+.image {
+  display:grid;
+  width: 98%;
 }
 .image img {
   align-items: center;
-  margin-left: 60%;
-  margin-top: 40px;
+   height:600px ;
+   margin-left: 1%;
   
 }
 .nav:hover
@@ -189,4 +193,7 @@
   padding-right: 25px; ;
   border-bottom-left-radius: 25px;
   border-bottom-right-radius: 25px;
+}
+.carou {
+  margin-top: 20px;
 }

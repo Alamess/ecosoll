@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 const Navbar = () => {
   return (
+    <div className={styles.trans}>
     <div className='bg-[#81818B]/10'>
         <div className="container mx-auto text-black flex justify-between items-center py-3" >
         <a href="./"><img  src="/assets/LOGO.png" alt="" width="230px"/></a>
@@ -20,6 +21,7 @@ const Navbar = () => {
               </ul>
             </div>
         </div>
+    </div>
     </div>
   )
 }

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Hero = () => {
   return (
-    <div className='relative'>
+    <div className='relative' >
                <img className='absolute top-24 left-14' src="/assets/dot.svg" alt="dot" />
         <div className=" container mx-auto flex justify-between flex-col lg:flex-row md:flex-nowrap items-center flex-wrap">
             <div className="flex flex-col gap-4">
